@@ -15,7 +15,7 @@ function checkBirthDateIsLucky(){
                 sum = Number(sum)+Number(dob[index]);//0+2,2+0,2+2
             }
         }
-        if(sum%luckyNumber===0){
+        if((sum%luckyNumber.value) === 0){
             isLucky.innerText="Your birthday is lucky..🥳";
         }else{
             isLucky.innerText="Your birthday is not that lucky..🤥";
