@@ -9,6 +9,10 @@ body {
 h1 {
     text-align: center;
 }
+h2, p {
+    text-align: center;
+    color : white;
+}
 .container{
     width:50%;
     margin:auto;
@@ -62,5 +66,5 @@ footer {
   }
   img {
     width: 40px;
-    padding: 1rem 0.2rem;
+    padding: 0.2rem 0.2rem;
   }
