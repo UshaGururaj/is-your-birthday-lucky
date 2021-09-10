@@ -2,6 +2,13 @@ const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector(".check-button");
 const isLucky = document.querySelector("#is-lucky");
+const privacyClose = document.querySelector(".privacy-close");
+const privacyNote = document.querySelector(".privacy-note");
+
+privacyClose.addEventListener("click", function(){
+    privacyNote.style.display = "none";
+})
+
 let birthDaystring = "";
 function checkBirthDateIsLucky(){
     var dob = Array.from(dateOfBirth.value);

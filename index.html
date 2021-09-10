@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- <div class="privacy-note">
+      <div class="privacy-msg">Privacy Note: We don't store your data</div>
+      <div class="privacy-close">X</div>
+    </div> -->
+
     <h1>Is your birthday lucky?🤔</h1>
     <div class="container">
+      <div class="privacy-note">
+        <div class="privacy-msg">Privacy Note: We don't store your data</div>
+        <div class="privacy-close">X</div>
+      </div>
         <label for="date-of-birth">Date of birth:</label>
         <input type="date" id="date-of-birth"/>
         <label for="lucky-number">Lucky number:</label>
@@ -17,31 +26,38 @@
         <button class="check-button">Check</button>
         <div id="is-lucky"></div>
     </div>
-    <footer>
-        <p>©  |  2021  |  Usha BG</p>
-        <ul class="list-unordered inline-list">
-          <li>
-            <a class="links" href="https://github.com/UshaGururaj" target="_blank">
-              <img src="images/github.svg" alt="github" />
-            </a>
-          </li>
-          <li>
-            <a class="links" href="https://twitter.com/UshaBG1" target="_blank">
-              <img src="images/twitter.svg" alt="twitter" />
-            </a>
-          </li>
-          <li>
-            <a
-              class="links"
-              href="https://instagram.com/usha_g_raj"
-              target="_blank"
-            >
-              <img src="images/instagram.svg" alt="instagram" />
-            </a>
-          </li>
-        </ul>
-        <a href="/privacyPolicy.html">Privacy policy</a>
-      </footer>
+    <footer class="footer">
+      <!-- <p>©  |  2021  |  Usha BG</p> -->
+      <!-- <p>get in touch</p> -->
+      <div class="footer-header" style="margin-bottom:2rem">get in touch</div>
+      <!-- <ul class="list-unordered inline-list"> -->
+        <ul class="list-non-bullet" style="margin-bottom:2rem">
+        <li class="list-item-inline">
+          <a class="links" href="https://www.linkedin.com/in/usha-bg-002734192" target="blank">
+            <img src="images/linkedIn.svg" alt="linkedin" class="footer-icon" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="links" href="https://github.com/UshaGururaj" target="blank">
+            <img src="images/github.svg" alt="github" class="footer-icon"/>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="links" href="https://twitter.com/UshaBG1" target="blank">
+            <img src="images/twitter.svg" alt="twitter" class="footer-icon"/>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="links"
+            href="https://instagram.com/usha_g_raj"
+            target="blank"
+          >
+            <img src="images/instagram.svg" alt="instagram" class="footer-icon"/>
+          </a>
+        </li>
+      </ul>
+    </footer>
 </body>
 <script src="./index.js"></script>
 </html>
