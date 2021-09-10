@@ -54,6 +54,13 @@ label{
     display: inline;
     padding: 0.25rem;
 }
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
 .footer{
     padding:2rem 0rem;
     text-align: center;
@@ -97,3 +104,4 @@ label{
     cursor: pointer;
     font-size: 1rem;;
 }
+
