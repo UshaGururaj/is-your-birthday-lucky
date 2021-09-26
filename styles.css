@@ -32,6 +32,7 @@ label{
 #is-lucky{
     text-align: center;
     font-size: larger;
+    margin-top: 2rem;
 }
 .check-button{
     display:block;
